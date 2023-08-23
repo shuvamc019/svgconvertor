@@ -1,0 +1,44 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.button {
+    cursor: pointer;
+    font-family: sans-serif;
+    border-radius: 2px;
+    border: 1px solid #aaa;
+    padding: 4px 8px;
+}
+#droptext {
+    border: 2px dashed #000;
+}
+#droptext.hovering {
+    border: 2px dashed #fff;
+}
+#canvas-container {
+    position: absolute;
+    left: 2.5%;
+    top: 5%;
+    width: 95%;
+    height: 90%;
+}
+#svg, #frame {
+    position: absolute;
+    width: 100%;
+    margin-bottom: 50px;
+}
+#svg > path:hover {
+    stroke: #ff0;
+}
+#droptext {
+    height: 100%;
+    text-align: center;
+}
+#options {
+    position: absolute;
+    left: 2.5%;
+    top: 5%;
+    padding: 50px;
+    background: rgba(255,255,255,0.5);
+}
