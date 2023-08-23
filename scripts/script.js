@@ -1,4 +1,4 @@
-import { BinaryImageConverter, ColorImageConverter } from '/vtracer/vtracer_webapp.js';
+import { BinaryImageConverter, ColorImageConverter } from '/scripts/vtracer/vtracer_webapp.js';
 
 let runner;
 const canvas = document.getElementById('frame');
